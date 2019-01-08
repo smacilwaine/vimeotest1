@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.section-1 {
+  background-color: white;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  color: #4e4f51;
+}
+
+.section-2 {
+  background-color: #4e4f51;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.section-3 {
+  background: linear-gradient(#4e4f51, white);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 150px;
+  color: white;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 510px;
+  height: auto;
+}
+
+.section-text-wrapper {
+  width: 480px;
+  height: auto;
+  text-align: left;
+  margin: 30px;
+}
+
+@media(max-width: 1048px) {
+
+  .section-text-wrapper{
+    width: 80%;
+    order: -1;
+    
+  }
+
+  img{
+    max-width: 95%;
+    align-self: flex-end;
+    
+  }
+
+}
+
+h2 {
+  line-height: 1px;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+
+
